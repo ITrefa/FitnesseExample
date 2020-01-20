@@ -1,0 +1,41 @@
+---
+Test
+---
+<test page>
+!define TEST_SYSTEM {slim}
+
+!path /Users/elaletina/fitnessExample/target/classes
+
+
+!| example.Calculator|
+|Value1 |Value2 |add?|
+|3      |5      |8   |
+|2      |3      |5   |
+|6      |3      |9   |
+|5      |2      |7   |
+
+!| example.Calculator   |
+|Value1|Value2|subtract?|
+|0     |5     |-5       |
+|0     |0     |0        |
+|6     |1     |5        |
+|5     |2     |3        |
+
+!| example.Calculator |
+|Value1|Value2|divide?|
+|0     |5     |0      |
+|0     |0     |0      |
+|2     |1     |2      |
+|5     |2     |2      |
+
+!| example.Calculator   |
+|Value1|Value2|multiply?|
+|0     |5     |0        |
+|0     |0     |0        |
+|2     |1     |2        |
+|5     |2     |10       |
+
+
+
+
+
